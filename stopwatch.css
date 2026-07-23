@@ -1,0 +1,42 @@
+Stopwatch {
+layout: horizontal;
+margin-bottom: 1;
+}
+
+.trans {
+background: transparent;
+}
+
+Button {
+    border: none;
+}
+
+#start {
+    dock: left;
+}
+
+#stop {
+    dock: left;
+    display: none;
+}
+
+#reset {
+    dock: right;
+}
+
+#timer {
+    content-align: center middle;
+    text-opacity: 60%;
+}
+
+Screen {
+    align: center middle;
+}
+
+.started #start {
+    display: none;
+}
+
+.started #stop {
+    display: block;
+}
